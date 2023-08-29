@@ -1,0 +1,33 @@
+.hero2 {
+    background-image: url(../assets/pexels-christina-morillo-1181243.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center top;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero2::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+.hero2 h1 {
+    font-size: 40px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.hero2 p {
+    font-size: 25px;
+    margin:  0 10px 10px 10px;
+}

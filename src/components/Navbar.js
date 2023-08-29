@@ -19,7 +19,7 @@ function Navbar() {
     }
     window.addEventListener("scroll",changecolor);
   return (
-    <div className={color ? 'header .header-bg' : 'header'}>
+    <div className={color ? 'header header-bg' : 'header'}>
       <Link to='/'>
         Portfolio.
       </Link>

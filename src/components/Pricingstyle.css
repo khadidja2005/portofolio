@@ -1,0 +1,52 @@
+.pricing {
+    padding: 6rem 1rem;
+    width: 100%;
+    background-color: black;
+}
+.card_container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 12px;
+}
+@media (max-width:840px) {
+    .card_container {
+        grid-template-columns: 1fr;
+    }
+}
+.card {
+    border: 2px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 40px 10px;
+    margin: 22px;
+}
+.card:hover {
+    background-color: #141414;
+}
+.card h1 {
+    margin: 40px 0 ;
+    font-size: 60px;
+}
+.card h3 {
+    margin: 20px 0 ;
+    font-size: 18px;
+}
+.card p {
+    margin: 20px 0;
+    padding: 10px 0 ;
+    font-size: 20px;
+}
+.btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card .bar {
+    border-bottom: 2px solid #eee;
+    width: 10%;
+    margin: 1.8rem auto;
+    display: block;
+
+}
